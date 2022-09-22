@@ -2,4 +2,4 @@
 
 // window.location.replace(`https://spirkomatus.com${path}`);
 
-window.location.href = window.location.href.replace("coachofpeople.com", "spirkomatus.com");
+// window.location.href = window.location.href.replace("coachofpeople.com", "spirkomatus.com");
