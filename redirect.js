@@ -1,2 +1,4 @@
-let domain = new URL(test);
-domain.hostname.replace("localhost", "spirkomatus");
+const path = window.location.href;
+
+let domain = new URL(path);
+domain.hostname.replace("coachofpeople", "spirkomatus");
