@@ -1,6 +1,6 @@
-// let url = window.location.toString();
+const path = window.location.pathname;
 
-// console.log(window.location);
-// window.location = url.replace("localhost:5500/", "spirkomatus.com/");
+const newUrl = `https://spirkomatus.com${path}`;
+console.log(newUrl);
 
-window.location.replace(`https://spirkomatus.com${window.location.pathname}`);
+window.location.replace(newUrl);
